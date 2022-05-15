@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 67px;
+}
+
+.hero-section {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-para {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* ================ shedule wrapper ========= */
+
+.shedule-wrapper{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family:  "Open Sans";
+}
+
+.shedule-title{
+  font-size: 25px;
+}
+
+.shedule-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-1{
+  border-right: 2px solid rgb(233, 233, 233);
+  padding: 30px;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+.item-2{
+  padding: 30px;
+  flex-grow: 2;
+  align-self: flex-start;
+  align-items: center;
+
+}
+
+.shedule-item-title{
+  font-size: 15px;
+  font-family:  "Open Sans";
+  margin-top: 60px;
+}
+.fa-arrow-left{
+  font-size: 25px;
+  color: #45A1F8;
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.shedule-logo{
+  margin-top: 100px;
+}
+.clock {
+  margin-bottom: 15px;
+}
+.clock .fa-clock{
+  font-size: 25px;
+  color: rgb(121, 121, 121);
+}
+.clock span{
+  font-size: 20px;
+  color: rgb(189, 189, 189);
+  font-family:  "Open Sans";
+}
+
+/* ========================= calender ====================== */
+.arrow-icon{
+  font-size: 25px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.arrow-icon:hover{
+  color: rgb(0, 212, 250);
+}
+.arrow-icon:nth-child(1){
+  margin-right: 30px;
+}
+.week{
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr );
+  margin-bottom: 50px;
+}
+.day, .date{
+  font-weight: 400;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date{
+  padding: 14px 12px;
+  margin: 5px;
+  border-radius: 50%;
+  font-weight: 500;
+}
+.date-5{
+  background: #45A1F8;
+  color: white;
+}
+
+.date:nth-child(16),
+.date:nth-child(17),
+.date:nth-child(18),
+.date:nth-child(19),
+.date:nth-child(20),
+.date:nth-child(21),
+.date:nth-child(22),
+.date:nth-child(23),
+.date:nth-child(24),
+.date:nth-child(25),
+.date:nth-child(26),
+.date:nth-child(27),
+.date:nth-child(28),
+.date:nth-child(29),
+.date:nth-child(30),
+.date:last-child,
+.date:nth-child(34){
+  background: #F3FAFE;
+  color: #45A1F8;
+}
+
+.right-side-title{
+  margin-top: 15px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button{
+  color: #45A1F8;
+  border: 2px solid #45A1F8;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+
+/* 
+
+ 1. shedule page 
+ 2. b2c page
+ 3. Services
+
+
+
+
+*/

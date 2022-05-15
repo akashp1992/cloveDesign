@@ -1,0 +1,43 @@
+.therapist {
+    padding: 10px 199px;
+    text-align: center;
+}
+
+.big-heading-thera {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    /* or 138% */
+    letter-spacing: -0.02em;
+    /* dark */
+    color: #161F2F;
+}
+
+.case-curve {
+    position: relative;
+    left: -56%;
+}
+
+img.curve-top-left {
+    position: relative;
+    left: -25%;
+}
+
+img.curve-top-right {
+    position: relative;
+    left: 25%;
+}
+
+.heading-case {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+    color: #161F2F;
+    position: relative;
+    top: 70%;
+}
